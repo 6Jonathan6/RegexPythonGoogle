@@ -42,6 +42,8 @@ def get_names(file_name):
 def main (year):
 	
 	list = get_names(year)
+	
+	
 	for l in list:
 		print(l)
 
